@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1B181C;
+    font-size: 20px;
+    font-family: 400;
+    font-family: Montserrat;
+    background-image: url(bg.png);
+    
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+p, h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.header {
+    padding-top: 71px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Верхняя панель */
+
+.logo {
+    filter: drop-shadow(-2px 1px 33px rgba(255, 168, 0, 0.7));
+}
+
+.logo_name {
+    margin-left: 13px;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.035em;
+}
+
+.header_text1 {
+    margin-left: 341.77px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header_text2 {
+    margin-left: 92px;
+    font-weight: regular;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.settings {
+    padding-left: 400px;
+}
+
+/* Текст на главной странице */
+
+.header_content {
+    display: flex;
+}
+
+.offer_title {
+    padding-top: 273px;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.desc {
+    margin-top: 49px;
+    margin-bottom: 70px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Кнопка на главной странице*/
+
+.btn {
+    font-weight: 700;
+    font-size: 20px;
+    background: linear-gradient(93.73deg, #FFCA63 -39.94%, #FFDD69 -39.92%, #FFA800 96.85%, #FFA800 96.85%);
+    filter: drop-shadow(0px 4px 35px rgba(255, 173, 10, 0.2));
+    border-radius: 47px;
+    padding: 21px 25px;
+}
+
+.btn:hover {
+    background: linear-gradient(93.73deg, #e7b652 -39.94%, #d8b84e -39.92%, #d89104 96.85%, #c98600 96.85%);
+}
+
+.btn:active {
+    background: linear-gradient(93.73deg, #d6a749 -39.94%, #c2a442 -39.92%, #c58300 96.85%, #b97c00 96.85%);
+}
+
+/* Картинка на главной странице*/
+
+.grafic {
+    padding-top: 159px;
+    margin-left: auto;
+    filter: drop-shadow(-7px 4px 58px rgba(0, 0, 0, 0.42));
+}
+

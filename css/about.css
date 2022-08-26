@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1B181C;
+    font-size: 20px;
+    font-family: 400;
+    font-family: Montserrat;
+    background-image: url(bg-about.png);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+p, h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+/* Верхняя панель */
+
+.header {
+    padding-top: 71px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    filter: drop-shadow(-2px 1px 33px rgba(255, 168, 0, 0.7));
+}
+
+.logo_name {
+    margin-left: 13px;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.035em;
+}
+
+.header_text1 {
+    margin-left: 341.77px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header_text2 {
+    margin-left: 92px;
+    font-weight: regular;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.settings {
+    padding-left: 400px;
+}
+
+/* Верхняя панель */
+
+/* Контенит */
+
+.main-text {
+    text-align: center;
+    padding-top: 323px;
+}
+
+.main-text1 {
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.main-text2 {
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.contact {
+    padding-top: 688px;
+    padding-bottom: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.msg-1 {
+    font-weight: 600;
+    font-size: 41px;
+}
+
+.msg-2 {
+    font-weight: 600;
+    font-size: 41px;
+}
+
+.email {
+    padding-left: 362px;
+    font-weight: 400;
+    font-size: 41px;
+    color: rgba(255, 255, 255, 0.6);
+}

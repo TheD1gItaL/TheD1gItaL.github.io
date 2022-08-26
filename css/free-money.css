@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1B181C;
+    font-size: 20px;
+    font-family: 400;
+    font-family: Montserrat;
+    background-image: url(bg-free-money.png);
+    
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+p, h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.header {
+    padding-top: 71px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Верхняя панель */
+
+.logo {
+    filter: drop-shadow(-2px 1px 33px rgba(255, 168, 0, 0.7));
+}
+
+.logo_name {
+    margin-left: 13px;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.035em;
+}
+
+.header_text1 {
+    margin-left: 341.77px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header_text2 {
+    margin-left: 92px;
+    font-weight: regular;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.settings {
+    padding-left: 400px;
+}
+
+/* Текст на главной странице */
+
+.header_content {
+    display: flex;
+}
+
+.offer_title {
+    padding-top: 201px;
+    font-weight: 900;
+    font-size: 79px;
+}
+
+.offer-desc {
+    margin-top: 49px;
+    margin-bottom: 70px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Картинка на главной странице*/
+
+.grafic {
+    width: 100px;
+    margin-left: 260px;
+    padding-top: 201px;
+    filter: drop-shadow(-7px 4px 58px rgba(0, 0, 0, 0.42));
+}
+
+/*Обьяснение */
+.explain-title {
+    padding-top: 180px;
+    padding-bottom: 208px;
+    font-weight: 700;
+    font-size: 76px;
+}
+
+/* Карточки */
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}

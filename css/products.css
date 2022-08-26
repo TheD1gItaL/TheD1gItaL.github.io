@@ -1,0 +1,269 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1B181C;
+    font-size: 20px;
+    font-family: 400;
+    font-family: Montserrat;
+    background-image: url(bg.png);
+} 
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+p, h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+/* Верхняя панель */
+
+.header {
+    padding-top: 71px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    filter: drop-shadow(-2px 1px 33px rgba(255, 168, 0, 0.7));
+}
+
+.logo_name {
+    margin-left: 13px;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.035em;
+}
+
+.header_text1 {
+    margin-left: 341.77px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header_text2 {
+    margin-left: 92px;
+    font-weight: regular;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.settings {
+    padding-left: 400px;
+}
+/* Верхняя панель */
+
+
+/* Каталог */
+
+.search-box {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    font-size: 14px;
+    color: #fff;
+    background: #5A565A;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.22), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    padding: 13px 421px 13px 22px;
+}
+
+.search::-webkit-input-placeholder { /* WebKit browsers */
+    color: #3A363C;
+}
+
+.cards {
+    display: flex;
+    width: 1500px;
+    margin-top: 190px;
+}
+
+/* Карточка 1 */
+
+.card1 {
+    width: 370px;
+    background: linear-gradient(152.76deg, #403D40 3.35%, #212021 99.61%);
+    border-radius: 14px;
+}
+
+.app1 {
+    width: 308px;
+    margin: 0 auto;
+}
+
+.photo-app1 {
+    margin-top: 30px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 28px;
+    margin-bottom: 28px;  
+}
+
+.description1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 158.4%;
+}
+
+.price-box1 {
+    display: flex;
+    margin-top: 28px;
+    padding-bottom: 28px;
+}
+
+.price1 {
+    font-size: 13px; 
+    color: rgba(255, 255, 255, 0.44);
+    padding: 4px 26px;
+    background: rgba(109, 109, 109, 0.7);
+    border-radius: 14px;
+}
+
+.card-more1 {
+    font-size: 12px;
+    padding: 4px 11px;
+    margin-right: auto;
+    background: linear-gradient(100.9deg, #FFCA63 8.42%, #FFA800 92.52%);
+    border-radius: 14px;
+    margin-left: 144px;
+}
+/* Карточка 1 */
+
+/* Карточка 2 */
+.card2 {
+    width: 370px;
+    background: linear-gradient(152.76deg, #403D40 3.35%, #212021 99.61%);
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app2 {
+    width: 308px;
+    margin: 0 auto;
+}
+
+.photo-app2 {
+    margin-top: 30px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 28px;
+    margin-bottom: 28px;  
+}
+
+.description2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 158.4%;
+}
+
+.price-box2 {
+    display: flex;
+    margin-top: 92px;
+    padding-bottom: 28px;
+}
+
+.price2 {
+    font-size: 13px; 
+    color: rgba(255, 255, 255, 0.44);
+    padding: 4px 26px;
+    background: rgba(109, 109, 109, 0.7);
+    border-radius: 14px;
+}
+
+.card-more2 {
+    font-size: 12px;
+    padding: 4px 11px;
+    margin-right: auto;
+    background: linear-gradient(100.9deg, #FFCA63 8.42%, #FFA800 92.52%);
+    border-radius: 14px;
+    margin-left: 202px;
+}
+/* Карточка 2 */
+
+/* Карточка 3 */
+.card3 {
+    width: 370px;
+    background: linear-gradient(152.76deg, #403D40 3.35%, #212021 99.61%);
+    border-radius: 14px;
+    margin-left: auto;
+    margin: 0;
+}
+
+.app3 {
+    width: 308px;
+    margin: 0 auto;
+}
+
+.photo-app3 {
+    margin-top: 30px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 28px;
+    margin-bottom: 28px;  
+}
+
+.description3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 158.4%;
+}
+
+.price-box3 {
+    display: flex;
+    margin-top: 92px;
+    padding-bottom: 28px;
+}
+
+.price3 {
+    font-size: 13px; 
+    color: rgba(255, 255, 255, 0.44);
+    padding: 4px 26px;
+    background: rgba(109, 109, 109, 0.7);
+    border-radius: 14px;
+}
+
+.card-more3 {
+    font-size: 12px;
+    padding: 4px 11px;
+    margin-right: auto;
+    background: linear-gradient(100.9deg, #FFCA63 8.42%, #FFA800 92.52%);
+    border-radius: 14px;
+    margin-left: 202px;
+}
+/* Карточка 3 */
+
+
+/* Каталог */
